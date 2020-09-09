@@ -1,0 +1,15 @@
+def displayMatrix():
+    rowsize = 256
+    for value in bseq:
+        for pos in range(0,16):
+            print(f'{"|" * value}', end='')
+        print('\r')
+    # print('\n')
+    
+
+def main():
+	print("Printing icon")
+	displayMatrix()
+
+if __name__ == '__main__':
+    main()
